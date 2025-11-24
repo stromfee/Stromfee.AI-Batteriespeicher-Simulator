@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Batteriespeicher-Simulator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'primary': '#1e40af',
+              'secondary': '#3b82f6',
+              'accent': '#facc15',
+              'neutral': '#f5f5f5',
+              'base-100': '#ffffff',
+              'info': '#2563eb',
+              'success': '#16a34a',
+              'warning': '#f59e0b',
+              'error': '#dc2626',
+            },
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "recharts": "https://esm.sh/recharts@^3.0.2",
+    "@google/genai": "https://esm.sh/@google/genai"
+  }
+}
+</script>
+</head>
+  <body class="bg-neutral">
+    <div id="root"></div>
+  </body>
+</html>

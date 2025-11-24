@@ -1,0 +1,5 @@
+{
+  "name": "Batteriespeicher-Simulator",
+  "description": "Ein Rechner zur Simulation der Wirtschaftlichkeit und Autarkie von Batteriespeichersystemen (BESS) basierend auf jährlichem Verbrauch, PV-Erzeugung und Kostenparametern.",
+  "requestFramePermissions": []
+}
